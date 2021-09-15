@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Slab&display=swap');
+
+body {
+
+    text-align: center;
+    max-width: 100%;
+    font-family: 'abel';
+    
+}
+
+
+
+ul {
+
+     margin: 0;
+     border: 0;
+    padding: 0;
+    min-width: 100%;
+    
+    background-color: rgb(41, 41, 41);
+}
+
+ul, li {
+
+display: inline-block;
+
+}
+
+li {
+
+    margin: 10px 20px 10px 20px;
+    color: whitesmoke;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+    }
+
+a:hover {
+
+    transition: 0.3s;
+    margin: 10px 15px 10px 15px;
+    color: cyan;
+
+
+}
+
+li a {
+
+    margin: 10px 10px 10px 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+div{
+
+    margin: 12px 0px 12px 0px;
+    display: inline-block;
+}
+
+img{
+
+    max-width: 30%;
+    min-width: 10%;
+    transition: 1s;
+}
+
+.imgs:hover{
+
+    transition: 0.3s;
+    margin: 0px 20px 0px 20px;
+    color: cyan;
+}
+
+
+h1{
+    font-family: 'roboto slab';
+    font-weight: bolder;
+    margin: 16px;
+    transition: 0.5s;
+
+
+}
+
+h1:hover{
+    font-family: 'roboto slab';
+    font-weight: bolder;
+    transition: 0.5s;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+
+}
+
+.vinculo {
+
+    margin: 5px;
+    font-family: 'roboto slab';
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    
+}
+
+.vinculo:hover {
+    
+    transition: 0.4s;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 20px;
+    size: 120%;
+    font-family: 'roboto slab';
+    font-weight: bolder;
+    text-decoration: none;
+
+
+    }
+
+h4 {
+
+    margin: 5px 0px 8px 0px;
+    font-weight: lighter;
+}
+
+p{
+
+    margin: 6px 0px 20px;
+}
+
+
+.foto-yo {
+    transition: 1s;
+    max-width: 15%;
+   
+   
+}
+
+.foto-yo:hover {
+    transition: 1s;
+    max-width: 18%;
+   
+   
+}
