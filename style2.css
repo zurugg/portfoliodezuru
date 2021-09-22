@@ -8,8 +8,6 @@ body {
     
 }
 
-
-
 ul {
 
      margin: 0;
@@ -65,22 +63,6 @@ div{
     vertical-align:top;
 }
 
-img{
-
-    margin: 20px 30px;
-    max-width: 22%;
-    min-width: 10%;
-    transition: 1s;
-}
-
-.imgs:hover{
-
-    transition: 0.3s;
-    margin: 0px 20px 0px 20px;
-    color: cyan;
-}
-
-
 h1{
     font-family: 'roboto slab';
     font-weight: bolder;
@@ -100,58 +82,30 @@ h1:hover{
 
 }
 
-.vinculo {
-
-    margin: 5px;
-    font-family: 'roboto slab';
-    font-weight: bolder;
-    text-decoration: none;
-    color: black;
-    transition: 0.4s;
-    
-}
-
-.vinculo:hover {
-    
-    transition: 0.4s;
-    background-color: black;
-    color: whitesmoke;
-    padding: 5px 20px;
-    size: 120%;
-    font-family: 'roboto slab';
-    font-weight: bolder;
-    text-decoration: none;
 
 
-    }
-
-h3 {
-
-    transition: 0.2s;
-    margin: 5px 0px 10px 0px;
-
-}
-
-h3:hover {
-    transition: 0.2s;
-    margin: 14px 0px 14px 0px;
-    max-width: 120%;
-}
-
-h4 {
-
-    margin: 5px 0px 8px 0px;
-    font-weight: lighter;
-}
-
-p{
-
-    margin: 6px 0px 20px;
-}
 
 .contacto-foto {
-    transition: 1s;
-    max-width: 15%;
+    
+    
+    max-width: 20%;
+    margin: 0;
+    padding: 0px 50px;
+    
    
    
+}
+
+form {
+
+    max-width: 20%;
+    display: inline-block;
+
+}
+
+
+.fotoycontacto {
+
+
+
 }
