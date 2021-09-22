@@ -6,33 +6,6 @@ html {
     margin: 0px 320px
 }
 
-@media (max-width: 1600px) {
-
-    html {
-   
-       margin: 0px 20px
-   }
-
-   }
-
-@media (max-width: 600px) {
-
-    html {
-   
-       margin: 0px 1200px
-   }
-
-   }
-
-@media (max-width: 900px) {
-
- html {
-
-    margin: 0px 0px
-}
-
-}
-
 
 
 body {
@@ -57,29 +30,7 @@ ul {
     background-color: rgb(41, 41, 41);
 }
 
-@media (max-width: 600px) {
 
-    ul {
-   
-       padding: 10px;
-       margin: 0px;
-   }
-
-   li {
-
-    margin: 5px 2px 5px 2px;
-
-   }
-
-   li a {
-
-    margin: 2px;
-    display: inline-block;
-
-   }
-
-
-   }
 
 ul, li {
 
@@ -93,6 +44,28 @@ li {
     color: whitesmoke;
 }
 
+@media (max-width: 600px) {
+
+    ul {
+   
+       padding: 0px;
+       margin: 0px;
+   }
+
+   li {
+
+    margin: 6px 0px;
+
+   }
+
+   li a {
+
+    font-size: 15px;
+
+   }
+
+
+}
 a{
 
     text-decoration: none;
@@ -210,3 +183,29 @@ p{
    
 }
 
+@media (max-width: 1600px) {
+
+    html {
+   
+       margin: 0px 20px
+   }
+
+   }
+
+@media (max-width: 600px) {
+
+    html {
+   
+       margin: 0px 0px
+   }
+
+   }
+
+@media (max-width: 900px) {
+
+ html {
+
+    margin: 0px 0px
+}
+}
+}
