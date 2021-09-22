@@ -1,7 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Slab&display=swap');
 
+
+html {
+
+    margin: 0px 320px
+}
+
+@media (max-width: 1600px) {
+
+    html {
+   
+       margin: 0px 20px
+   }
+
+   }
+
+@media (max-width: 600px) {
+
+    html {
+   
+       margin: 0px 1200px
+   }
+
+   }
+
+@media (max-width: 900px) {
+
+ html {
+
+    margin: 0px 0px
+}
+
+}
+
+
+
 body {
 
+    margin: 0;
     text-align: center;
     max-width: 100%;
     font-family: 'abel';
@@ -15,7 +51,8 @@ ul {
      margin: 0;
      border: 0;
     padding: 0;
-    min-width: 100%;
+    min-width: 91%;
+    
     
     background-color: rgb(41, 41, 41);
 }
@@ -82,7 +119,7 @@ img{
 h1{
     font-family: 'roboto slab';
     font-weight: bolder;
-    margin: 16px;
+    margin: 16px 0px;
     transition: 0.5s;
 
 
