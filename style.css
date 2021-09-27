@@ -66,6 +66,7 @@ li {
 
 
 }
+
 a{
 
     text-decoration: none;
@@ -74,23 +75,40 @@ a{
     
     }
 
-a:hover {
+    .img-central:hover{
 
-    transition: 0.3s;
-    margin: 10px 15px 10px 15px;
-    color: cyan;
+        margin: 0px 10px 0px 10px;
+        transition: 0.3s;
+        
 
+    }
 
-}
+    li:hover {
 
-li a {
-
-    margin: 10px 10px 10px 10px;
-    color: whitesmoke;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
+    
+        transition: 0.5s;
+        color: black;
+        background-color: #646464;
+        border-radius: 3px;
+       
+    }
+    
+    li a {
+    
+        margin: 10px 10px 10px 10px;
+        color: whitesmoke;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    li a:hover {
+    
+        transition: 0.5s;
+        color: whitesmoke;
+    
+    
+    
+    }
 
 div{
 
@@ -169,19 +187,7 @@ p{
 }
 
 
-.foto-yo {
-    transition: 1s;
-    max-width: 15%;
-   
-   
-}
 
-.foto-yo:hover {
-    transition: 1s;
-    max-width: 18%;
-   
-   
-}
 
 @media (max-width: 1600px) {
 

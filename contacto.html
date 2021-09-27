@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel='stylesheet' href="style2.css">
+    <link rel='stylesheet' href="contacto.css">
 
     <title>Tomás Zurueta</title>
 </head>
@@ -10,6 +12,7 @@
 <body>
     
     <a href='index.html'>
+
         <h1>TOMÁS ZURUETA</h1>
     </a>
 
@@ -25,7 +28,7 @@
 
         <li><a href='contacto.html'>contacto</a></li>
         
-        <li><a href='sinterminar.html'>galería</a></li>
+        <li><a href='galeria.html'>galería</a></li>
 
         <li><a href='sinterminar.html'>blog</a></li>
 
@@ -36,22 +39,25 @@
 
 <div class='fotoycontacto'>
 
-<img src="imagenes/contacto.jpg" alt="img" class='contacto-foto'>
+<div class='contactame'>
 
-<form action="https://formsubmit.co/zuruname@gmail.com" method="POST">
-    nombre<br>
-    <input type="text" name="name" required>
-    <br>e-mail<br>
-    <input type="email" name="email" required>
-    <br>proyecto<br>
-    <input type="text" name="proyect" required>
-    <br>mensaje<br>
-    <input type="text" name="message">
-    <input type="hidden" name="_next" value="https://zurugg.github.io/portfoliodezuru/index.html">
-    
-    <br><br> <button type="submit">Send</button>
+<header>Contacta conmigo</header>
 
+<form id="form" class="topBefore" action="https://formsubmit.co/zuruname@gmail.com" method="POST">
+		
+		  <input id="name" type="text" name="name" placeholder="Nombre" required>
+		  <input id="email" type="text" name="email" placeholder="e-mail" required>
+          <input id="proyect" type="text" name="proyect" placeholder="proyecto" required>
+		  <textarea id="message" type="text" name="message" placeholder="Mensaje"></textarea>
+          <input type="hidden" name="_next" value="https://zurugg.github.io/portfoliodezuru/index.html">
+
+  <input id="submit" type="submit" value="enviar">
+  
 </form>
+
+</div>
+
+<img src="imagenes/contacto2.jpg" alt="img" class='contacto-foto'>
 
 </div>
 

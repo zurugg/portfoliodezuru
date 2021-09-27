@@ -1,0 +1,144 @@
+.foto-yo {
+    transition: 1s;
+    max-width: 22%;
+   
+   
+}
+
+.foto-yo:hover {
+    transition: 0.5s;
+    max-width: 25%;
+   
+   
+}
+
+.foto-davinci {
+
+    margin: 12px;
+    max-width: 45%;
+
+}
+
+.foto-davinci:hover{
+
+    max-width: 55%;
+
+}
+
+.foto-df {
+
+    max-width: 50%;
+
+
+}
+
+.foto-df:hover {
+
+    max-width: 60%;
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .foto-yo{
+
+        max-width: 40%;
+
+    }
+
+    .foto-yo:hover{
+
+        max-width: 40%;
+
+    }
+    .foto-davinci{
+
+        max-width: 60%;
+
+    }
+
+    .foto-davinci:hover{
+
+        max-width: 60%;
+
+    }
+
+
+    .foto-df {
+
+        max-width: 60%;
+    
+    
+    }
+    
+    .foto-df:hover {
+    
+        max-width: 60%;
+    
+    
+    }
+    
+
+    p{
+        font-size: 24px;
+        margin: 2px 16px 20px 16px;
+
+    }
+
+    h3{
+
+        font-size: 36px;
+        margin: 12px;
+
+    }
+
+
+    
+}
+
+
+@media (max-width: 600px) {
+
+
+    .foto-yo{
+
+        max-width: 40%;
+
+    }
+
+    .foto-yo:hover{
+
+        max-width: 40%;
+
+    }
+    .foto-davinci{
+
+        max-width: 60%;
+
+    }
+
+    .foto-davinci:hover{
+
+        max-width: 60%;
+
+    }
+
+    p{
+        font-size: 18px;
+        margin: 2px 16px;
+
+    }
+
+    h3{
+
+        font-size: 32px;
+        margin: 12px;
+
+    }
+
+
+    
+}
