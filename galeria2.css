@@ -21,17 +21,23 @@ img {
 
 }
 
-.horizontal:hover {
 
-    transition: 1s;
-    max-width: 65%;
+@media screen and (max-width: 768px) {
 
+
+    .horizontal {
+
+        max-width: 100%;
+
+    }
+
+    .vertical {
+
+        max-width: 70%;
+
+    }
+
+
+    
 }
 
-.vertical:hover {
-
-    max-width: 35%;
-    transition: 1s;
-
-
-}
