@@ -26,7 +26,7 @@
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgb(58, 58, 58);
-    transition: 0.1s;
+    transition: 0.2s;
 
 
 }
@@ -67,6 +67,34 @@ transform: scale(105%);
 
 
 
+}
+
+@media screen and (max-width: 1024px) {
+
+    .blogs-container {
+
+            max-width: 70%;
+            max-height: 100%;
+    }
+
+    .presentacion {
+
+        margin: 12px 0px;
+        max-width: 70%;
+
+    }
+
+    .blog-box {
+
+
+        margin: 0;
+        transform:scale(80%);
+        
+
+    }
+
+
+    
 }
 
 /*Settings dentro de los blogs*/
@@ -148,5 +176,49 @@ text-align: left;
 #jeff-bezos-1:hover {
 
     max-width: 60%;
+    border-radius: 30px;
 
+}
+
+
+
+/*Versión Movil*/
+
+@media screen and (max-width: 1024px) {
+
+    img {
+
+        max-width: 90%;
+
+
+    }
+    .blog-img-interno:hover {
+
+        max-width: 90%;
+
+
+    }
+    
+}
+
+
+/*Version movil para excepciones*/
+
+@media screen and (max-width: 1024px) {
+
+    #jeff-bezos-1 {
+
+        max-width: 90%;
+
+
+    }
+
+    #jeff-bezos-1:hover {
+
+        max-width: 90%;
+        border-radius: 30px;
+
+
+    }
+    
 }
