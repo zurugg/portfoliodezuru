@@ -1,0 +1,152 @@
+/*Settings para la página que administra los blogs*/
+
+.presentacion {
+
+    margin: 12px 240px;
+
+}
+
+.blogs-container{
+
+    width: 900px;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.blog-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 240px;
+    height: 340px;
+    margin: 36px 12px;
+    background-color: rgb(226, 252, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(58, 58, 58);
+    transition: 0.1s;
+
+
+}
+
+.blog-box:hover {
+
+transform: scale(105%);
+
+}
+
+.blog-img {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 24%;
+    max-width: 50%;
+    border-radius: 10px;
+  
+
+}
+
+.titulo-blog {
+
+    width: 200px;
+    margin: 6px 15%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.descripcion {
+
+    margin: 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+/*Settings dentro de los blogs*/
+
+.volver {
+
+display: inline-block;
+margin-right: 80%;
+
+}
+
+.volver-inicio {
+
+    color: rgb(41, 41, 41);
+    background-color: rgb(243, 198, 131);
+    margin: 24px;
+    padding: 0px 12px;
+    font-size: 24px;
+
+
+}
+
+.blog-shadow {
+
+    background-color: rgb(248, 255, 255);
+    box-shadow: 0px 0px 5px rgb(58, 58, 58);
+    width: 90%;
+    border-radius: 12px;
+}
+
+.blog-img-interno {
+
+
+margin: 12px;
+border-radius: 20px;
+transition: 0.4s;
+
+}
+
+.blog-img-interno:hover {
+
+    max-width: 40%;
+    border-radius: 30px;
+
+
+}
+
+.titulo-blog-interno {
+
+    font-size: 72px;
+    margin: 6px;
+
+}
+
+.texto {
+
+margin: 2px 24px;
+font-size: 20px;
+font-weight: 200;
+text-align: left;
+
+}
+
+
+
+
+/*excepciones*/
+
+#jeff-bezos-1 {
+    
+    margin: 12px;
+    border-radius: 20px;
+    transition: 0.4s;
+    max-width: 40%;
+
+
+}
+
+#jeff-bezos-1:hover {
+
+    max-width: 60%;
+
+}
